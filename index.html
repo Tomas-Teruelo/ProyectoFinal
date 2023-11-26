@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FortPavos </title>
+    <link rel="icon" href="./public/img/Icon_VBucks.png"><!-- icono de la pestaña -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"><!-- nabvar -->
+            <div class="container-fluid">
+                <img src="./public/img/Icon_VBucks.png" alt="Logo"  class="photo_pavos">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./views/lotes.html">LOTES DE PAVOS</a>
+                        <a class="nav-link active" href="./views/pequetes.html">PAQUETES</a>
+                        <a class="nav-link active" href="./views/regalos.html">METODO DE REGALO</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide"><!-- carrusel -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./public/img/fortnite-chapter-4-og-home-page-battle-pass-promo-slide-desktop-1920x1080-762da18487c0.png" class="d-block w-100" alt="picture">
+        </div>
+        <div class="carousel-item">
+            <img src="./public/img/jugadores-pueden-adquirir-paVos-dinero_1185191485_113110_1440x600.png" class="d-block w-100" alt="picture">
+        </div>
+        <div class="carousel-item">
+            <img src="./public/img/Fortnite_blog_gifting-coming-to-battle-royale_BR06_News_Featured_Gifting-1920x1080-57a0e0e15467c65ca.png" class="d-block w-100" alt="pciture">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main>
+    <section id="welcomes"><!-- introduccion -->
+        <div class="title">
+            <h1> BIENVENID@S A FORTPAVOS</h1>
+            <p class="paragraph_welcomes"> Somos un tienda de venta de articulos del juego fortnite que ha iniciado recientemente pero eso no quiere decir que no tengamos la mejor atencion y mejores precios para ustedes.</p>
+        </div>
+        <div class="seguridad">
+            <h5>Seguridad:</h5>
+            <p id="paragraph_seguridad">Tu compra está protegida  y nuestros productos cuentan con garantía ilimitada.</p>
+        </div>
+        <div class="atencion">
+            <h5>Atencion:</h5>
+            <p id="paragraph_atencion">Contás con un soporte personalizado via Instagram con la mejor atención posible. click aqui ⬇</p>
+                <a class="ig" href="https://www.instagram.com/teruelo_tomas/?hl=es-la">
+                    <img src="./public/img/instagram (1).png" class="photo_ig" alt="">
+                </a>
+        </div>
+    </section><!-- servicios -->
+    <section id="section__services">
+        <h2 class="section__title">- Servicios -</h2>
+        <div class="card" >
+            <img src="./public/img/jugadores-pueden-adquirir-paVos-dinero_1185191485_113110_1440x600.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">LOTES DE PAVOS</h5>
+                <p class="card-text"> Los lotes de pavos son de 1000, 2800, 5000 y 13500 pavos para que disfrutes, gracias a esa cantidad de V-Bucks puedes adquierir de la tienda de objetos </p>
+                <a href="./views/lotes.html" class="btn btn-warning w-100">Ver más</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./public/img/packs/1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">PAQUETES</h5>
+                <p class="card-text">Los paquetes que tenemos actualmente son pase de batallas, club de fortnite, paquete de inicio, paquete de leyendads doradas y otros paquetes exclusivas </p>
+                <a href="./views/pequetes.html" class="btn btn-warning w-100">Ver más</a>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="./public/img/Fortnite_blog_gifting-coming-to-battle-royale_BR06_News_Featured_Gifting-1920x1080-57a0e0e15467c65ca.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">METODO DE REGALO</h5>
+                <p class="card-text">El metodo de regalo consiste: me tendrias que agregar a la cuenta de epic games de gallego da best y en 2 dias se puede hacer el regalo.</p>
+                <a href="./views/regalos.html" class="btn btn-warning w-100">Ver más</a>
+            </div>
+        </div>
+    </main>
+    <footer><!-- footer -->
+        <p class="paragraph_footer">Horario de Atención y Entregas Lunes a Lunes de 12 a 24hs. Horario Argentina <img src="./public/img/1f1e6-1f1f7.png" alt="" class="bandera_arg"></p>
+        <span>© Derechos reservados de FortPavos</span>
+    </footer>
+</body>
+</html>
